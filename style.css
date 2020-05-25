@@ -20,23 +20,23 @@ body.light {
     margin: 35px auto;
 }
 
-.header_titulo {
+.header_tittle {
     display: flex;
     justify-content: space-between;
     font-weight: 700;
 }
 
-.titulo {
+.tittle {
     font-size: 26px;
     color: hsl(0, 0%, 100%);
     margin: 0;
 }
 
-.light .titulo {
+.light .tittle {
     color: hsl(230, 17%, 14%);
 }
 
-.headerSubtitulo,
+.headerSubtittle,
 .card_overview-type {
     font-size: 14px; 
     font-weight: 700; 
@@ -49,12 +49,12 @@ body.light {
     color: hsl(0, 0%, 100%);
 }
 
-.light .headerSubtitulo,
+.light .headerSubtittle,
 .toggle_label {
     color: hsl(228, 34%, 66%);
 }
 
-.toggle {
+.toggle-wrapper {
     display: flex;
     align-items: center;
 }
@@ -256,11 +256,11 @@ body.light {
         box-sizing: border-box;
     }
 
-    .header_titulo {
+    .header_tittle {
         flex-wrap: wrap;
     }
 
-    .titulo {
+    .tittle {
         flex-basis: 100%;
         border-bottom: solid 1px hsl(228, 34%, 66%);
         padding-bottom: 15px;

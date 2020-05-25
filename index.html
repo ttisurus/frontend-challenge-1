@@ -32,14 +32,14 @@
   <!-- Contenedor Principal -->
   <div class="container">
 
-    <header class="header_titulo">
+    <header class="header_tittle">
 
-      <div class="cont_titulo">
-        <h1 class="titulo">Social Media Dashboard</h1>
-        <span class="headerSubtitulo">Followers: 23,004</span>
+      <div class="cont_tittle">
+        <h1 class="tittle">Social Media Dashboard</h1>
+        <span class="headerSubtittle">Followers: 23,004</span>
       </div>
       <!-- Switch Dark/White Theme Buttom -->
-      <div class="header_right toggle">
+      <div class="toggle-wrapper">
         <label for="dark_mode" class="toggle_label">Dark Mode</label>
         <div class="toggle_button-wrapper">
           <input type="checkbox" name="dark_mode" class="toggle_checkbox" id="dark_mode">
@@ -49,6 +49,7 @@
 
     </header>
 
+    <!-- Primer seccion de tarjetas -->
 
     <section class="cards">
 
@@ -114,10 +115,14 @@
 
     </section>
 
+    <!-- Titulo Overview -->
+
     <section class="bottom-cards">
       <h2 class="bottom-cards_tittle">
         Overview - Today
       </h2>
+
+      <!-- Segunda seccion de tarjetas -->
 
       <div class="cards">
         <div class="card card-columns">
@@ -287,6 +292,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://ttisurus.github.io/frontend-challenge-1/">Arrow Design</a>.
   </div>
+
+<!-- Funcion de switch dark/light mode -->
 
   <script>
     const toggleButton = document.getElementById('dark_mode');
