@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social media dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Contenedor Principal -->
+  <div class="container">
+
+    <header class="header_titulo">
+
+      <div class="cont_titulo">
+        <h1 class="titulo">Social Media Dashboard</h1>
+        <span class="headerSubtitulo">Followers: 23,004</span>
+      </div>
+      <!-- Switch Dark/White Theme Buttom -->
+      <div class="header_right toggle">
+        <label for="dark_mode" class="toggle_label">Dark Mode</label>
+        <div class="toggle_button-wrapper">
+          <input type="checkbox" name="dark_mode" class="toggle_checkbox" id="dark_mode">
+          <span class="toggle_button"></span>
+        </div>
+      </div>
+
+    </header>
+
+
+    <section class="cards">
+
+      <div class="card card-fb">
+        <span class="social-media-tag">
+          <img class="social-media-img" src="./images/icon-facebook.svg" alt="icon-facebook">
+          @nathanf
+        </span>
+        <div class="followers">
+          <span class="followers_number">1987</span>
+          <span class="followers_subtext">FOLLOWERS</span>
+        </div>
+        <span class="change">
+          <img src="./images/icon-up.svg" alt="up">
+          12 Today
+        </span>
+      </div>
+
+      <div class="card card-twit">
+        <span class="social-media-tag">
+          <img class="social-media-img" src="./images/icon-twitter.svg" alt="icon-twitter">
+          @nathanf
+        </span>
+        <div class="followers">
+          <span class="followers_number">1044</span>
+          <span class="followers_subtext">FOLLOWERS</span>
+        </div>
+        <span class="change">
+          <img src="./images/icon-up.svg" alt="up">
+          99 Today
+        </span>
+      </div>
+
+      <div class="card card-colorfull">
+        <span class="social-media-tag">
+          <img class="social-media-img" src="./images/icon-instagram.svg" alt="icon-instagram">
+          @realnathanf
+        </span>
+        <div class="followers">
+          <span class="followers_number">11k</span>
+          <span class="followers_subtext">FOLLOWERS</span>
+        </div>
+        <span class="change">
+          <img src="./images/icon-up.svg" alt="up">
+          1099 Today
+        </span>
+      </div>
+
+      <div class="card card-red">
+        <span class="social-media-tag">
+          <img class="social-media-img" src="./images/icon-youtube.svg" alt="icon-youtube">
+          Nathan F.
+        </span>
+        <div class="followers">
+          <span class="followers_number">8239</span>
+          <span class="followers_subtext">SUBSCRIBERS</span>
+        </div>
+        <span class="change change-negative">
+          <img src="./images/icon-down.svg" alt="down">
+          144 Today
+        </span>
+      </div>
+
+    </section>
+
+    <section class="bottom-cards">
+      <h2 class="bottom-cards_tittle">
+        Overview - Today
+      </h2>
+
+      <div class="cards">
+        <div class="card card-columns">
+          <div class="card_column">
+            <span class="card_overview-type">
+              Page views
+            </span>
+            <span class="card_overview-value">
+              87
+            </span>
+          </div>
+          <div class="card_column">
+            <span class="card_overview-media">
+              <img alt="facebook icon" class="social-media-tag_img" src="./images/icon-facebook.svg">
+            </span>
+            <span class="change">
+              <img src="./images/icon-up.svg" alt="up">
+              144 Today
+            </span>
+          </div>
+        </div>
+
+        <div class="card card-columns">
+          <div class="card_column">
+            <span class="card_overview-type">
+              Likes
+            </span>
+            <span class="card_overview-value">
+              52
+            </span>
+          </div>
+          <div class="card_column">
+            <span class="card_overview-media">
+              <img alt="facebook icon" class="social-media-tag_img" src="./images/icon-facebook.svg">
+            </span>
+            <span class="change-negative">
+              <img src="./images/icon-down.svg" alt="down">
+              2%
+            </span>
+          </div>
+        </div>
+
+        <div class="card card-columns">
+          <div class="card_column">
+            <span class="card_overview-type">
+              Likes
+            </span>
+            <span class="card_overview-value">
+              5462
+            </span>
+          </div>
+          <div class="card_column">
+            <span class="card_overview-media">
+              <img alt="facebook icon" class="social-media-tag_img" src="./images/icon-instagram.svg">
+            </span>
+            <span class="change">
+              <img src="./images/icon-up.svg" alt="up">
+              2257%
+            </span>
+          </div>
+        </div>
+
+        <div class="card card-columns">
+          <div class="card_column">
+            <span class="card_overview-type">
+              Profile Views
+            </span>
+            <span class="card_overview-value">
+              52k
+            </span>
+          </div>
+          <div class="card_column">
+            <span class="card_overview-media">
+              <img alt="facebook icon" class="social-media-tag_img" src="./images/icon-instagram.svg">
+            </span>
+            <span class="change">
+              <img src="./images/icon-up.svg" alt="up">
+              1375%
+            </span>
+          </div>
+        </div>
+
+        <div class="card card-columns">
+          <div class="card_column">
+            <span class="card_overview-type">
+              Retweets
+            </span>
+            <span class="card_overview-value">
+              117
+            </span>
+          </div>
+          <div class="card_column">
+            <span class="card_overview-media">
+              <img alt="facebook icon" class="social-media-tag_img" src="./images/icon-twitter.svg">
+            </span>
+            <span class="change">
+              <img src="./images/icon-up.svg" alt="up">
+              303%
+            </span>
+          </div>
+        </div>
+
+        <div class="card card-columns">
+          <div class="card_column">
+            <span class="card_overview-type">
+              Likes
+            </span>
+            <span class="card_overview-value">
+              507
+            </span>
+          </div>
+          <div class="card_column">
+            <span class="card_overview-media">
+              <img alt="facebook icon" class="social-media-tag_img" src="./images/icon-twitter.svg">
+            </span>
+            <span class="change">
+              <img src="./images/icon-up.svg" alt="up">
+              553%
+            </span>
+          </div>
+        </div>
+
+        <div class="card card-columns">
+          <div class="card_column">
+            <span class="card_overview-type">
+              Likes
+            </span>
+            <span class="card_overview-value">
+              107
+            </span>
+          </div>
+          <div class="card_column">
+            <span class="card_overview-media">
+              <img alt="facebook icon" class="social-media-tag_img" src="./images/icon-youtube.svg">
+            </span>
+            <span class="change-negative">
+              <img src="./images/icon-down.svg" alt="down">
+              19%
+            </span>
+          </div>
+        </div>
+
+        <div class="card card-columns">
+          <div class="card_column">
+            <span class="card_overview-type">
+              Total Views
+            </span>
+            <span class="card_overview-value">
+              1407
+            </span>
+          </div>
+          <div class="card_column">
+            <span class="card_overview-media">
+              <img alt="facebook icon" class="social-media-tag_img" src="./images/icon-youtube.svg">
+            </span>
+            <span class="change-negative">
+              <img src="./images/icon-down.svg" alt="down">
+              12%
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Arrow Design</a>.
+  </div>
+
+  <script>
+    const toggleButton = document.getElementById('dark_mode');
+    const body = document.getElementsByTagName("body")[0];
+
+    toggleButton.addEventListener('click', () => {
+      body.classList.toggle('light');
+    });
+  </script>
+
+</body>
+
+</html>
