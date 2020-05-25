@@ -49,8 +49,7 @@ body.light {
     color: hsl(0, 0%, 100%);
 }
 
-.light .headerSubtittle,
-.toggle_label {
+.light .toggle_label {
     color: hsl(228, 34%, 66%);
 }
 
