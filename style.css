@@ -14,17 +14,6 @@ body.light {
     color: hsl(228, 12%, 44%);
 }
 
-.background {
-    background-color: hsl(232, 19%, 15%);
-    max-width: 1440px;
-    width: auto;
-    margin: 0;
-    top: 0;
-    left: 0;
-    position: absolute;
-    height: 300px;
-}
-
 .container{
     width: auto;
     max-width: 1110px;
